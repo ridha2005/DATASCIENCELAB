@@ -1,0 +1,13 @@
+import pandas as pd
+data={
+    'name':['ridha','fidha','nidha','faras'],
+    'age':[21,15,24,27],
+    'marks':[85,90,78,88]
+}
+df=pd.DataFrame(data)
+print("DataFrame:")
+print(df)
+print("\nSummary Statistics:")
+print(df.describe())
+print("\nBasic information:")
+print(df.info())
